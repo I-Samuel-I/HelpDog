@@ -14,6 +14,7 @@ _Technologies_
 - Vue ✌️
 - SASS 🎨
 - Vite ⚡
+- AOS
 
 ### How to use
 

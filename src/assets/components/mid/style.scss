@@ -1,3 +1,13 @@
+@mixin btn-style{
+  &:hover{
+     background-color: #0e3846;
+     cursor: pointer;
+     transition: 0.5s;
+     transform: scale(1.1);
+  }
+   
+}
+
 section {
     display: flex;
     align-items: center;
@@ -13,7 +23,6 @@ section {
     width: 30%;
     padding: 15px;
     margin-left: 5%;
-    
     h1 {
      
       font-family: "Pangolin", sans-serif;
@@ -34,6 +43,8 @@ section {
       font-size: 1rem;
       border-radius: 10px;
       padding: 17px;
+
+      @include btn-style;
     }
   }
 }

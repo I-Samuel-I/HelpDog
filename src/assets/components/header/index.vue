@@ -10,11 +10,9 @@
       <button>Ajudar agora</button>
     </section>
     <figure>
-      <div class="RotateBg">
-        <div>
-           <img src="../../images/dog-1.png" /> 
-        </div>
-        
+      <div class="Dog-banner">
+          <div class="Rotate-bg">a</div>
+           <img src="../../images/dog-1.png" alt="Cachorrinho" class="Dog-img" /> 
       </div>
     </figure>
   </header>
