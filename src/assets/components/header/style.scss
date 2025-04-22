@@ -1,16 +1,55 @@
+$colorButton: #124c5f;
 
-$colorButton: #124C5F;
+header {
+  display: flex;
+  padding: 20px;
+  background-color: #ffff;
+}
 
-header{
-    border:solid 1px;
-    padding: 20px;
-    
+.Logo {
+  color: $colorButton;
+  font-size: 2rem;
+  img {
+    width: 35px;
+  }
 }
-.Logo{
-    color: #124C5F;
-}
-#Content{
-    border: solid 1px;;
+section {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 3%;
+  margin-left: 10%;
+  width: 50%;
+  h1 {
+    font-family: "Pangolin", sans-serif;
+    margin-top: 20%;
+    font-size: 3.5rem;
+    font-weight: 500;
+  }
+
+  p {
     margin-top: 5%;
-    margin-left: 10%;
+    width: 50%;
+    font-size: 1.2rem;
+  }
+  button {
+    border: none;
+    border-radius: 5px;
+    margin-top: 5%;
+    padding: 20px;
+    background-color: $colorButton;
+    color: #ffff;
+    font-size: 1.2rem;
+    font-weight: 550;
+    width: 40%;
+  }
+}
+figure {
+  .RotateBg {
+    background-color: #fff1a6;
+    border-radius: 100%;
+  }
+  img {
+    background-position: center;
+  }
 }
