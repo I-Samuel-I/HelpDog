@@ -1,21 +1,26 @@
 $colorButton: #124c5f;
-@mixin btn-style{
-  &:hover{
-     background-color: #0e3846;
-     cursor: pointer;
-     transition: 0.5s;
-     transform: scale(1.1);
+@mixin btn-style {
+  &:hover {
+    background-color: #0e3846;
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.1);
   }
-   
 }
-
 header {
+  width: 100%;
   display: flex;
-  
   background-color: #ffff;
-}
+  padding: 20px;
 
+  @media (max-width: 991px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .Logo {
+  display: flex;
+  gap: 15px;
   color: $colorButton;
   font-size: 2rem;
   img {
@@ -25,22 +30,50 @@ header {
 section {
   display: flex;
   flex-direction: column;
-
   margin-top: 3%;
   margin-left: 10%;
   width: 40%;
-  
+  @media (max-width: 1440px) {
+    width: 50%;
+  }
+  @media (max-width: 991px) {
+    margin-left: 0%;
+    display: flex;
+    width: 60%;
+    align-items: center;
+  }
+  @media (max-width: 600px) {
+    width: 100%;
+  }
   h1 {
     font-family: "Pangolin", sans-serif;
     margin-top: 15%;
     font-size: 3rem;
     font-weight: 500;
+    @media (max-width: 1440px) {
+      font-size: 2.5rem;
+    }
+    @media (max-width: 991px) {
+      text-align: center;
+
+      width: 100%;
+    }
+    @media (max-width: 500px) {
+      font-size: 2rem;
+    }
   }
 
   p {
     margin-top: 5%;
     width: 50%;
     font-size: 1.2rem;
+    @media (max-width: 1440px) {
+      font-size: 1.1rem;
+    }
+    @media(max-width: 500px) {
+      text-align: center;
+      width: 100%;
+    }
   }
   button {
     border: none;
@@ -53,41 +86,61 @@ section {
     font-size: 1.2rem;
     font-weight: 550;
     width: 40%;
-
     @include btn-style;
+
+    @media (max-width: 1200px) {
+      width: 50%;
+      padding: 15px;
+    }
+    @media(max-width: 500px) {
+      width: 60%;
+      
+    }
   }
 }
 figure {
   margin-left: 0%;
-
   width: 50%;
-  
+
   .Dog-banner {
     position: relative;
     width: 100%;
     height: 500px;
     overflow: hidden;
+
+    @media (max-width: 991px) {
+      display: none;
+    }
   }
 
-  .Rotate-bg {
-    position: absolute;
+  // .Rotate-bg {
+  //   position: absolute;
 
-    height: 200%;
-    width: 40%;
-    background-color: #FFF1A6;
-    border-radius: 300px 300px 0 0;
-    transform: rotate(-105deg);
-    top: -50%;
-    left: 35%;
-    z-index: 2;
- 
-  }
+  //   height: 185%;
+  //   width: 50%;
+  //   background-color: #FFF1A6;
+  //   border-radius: 300px 300px 0 0;
+  //   transform: rotate(-105deg);
+  //   top: -50%;
+  //   left: 35%;
+  //   z-index: 2;
 
+  // }
   .Dog-img {
     position: relative;
     left: 10%;
-    width: auto;
-    height: 500px;
+    width: 750px;
     z-index: 2;
+
+    @media (max-width: 1440px) {
+      width: 700px;
+    }
+    @media (max-width: 1200px) {
+      left: 5%;
+      width: 600px;
+    }
+    @media (max-width: 991px) {
+      display: none;
+    }
   }
 }

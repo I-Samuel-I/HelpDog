@@ -2,7 +2,7 @@
   <header>
     <section>
       <h3 class="Logo">
-        <img src="../../images/pata-de-cachorro.png" />
+        <img src="../../images/patas.png" />
         HelpDog
       </h3>
       <h1>Ajude quem realmente precisa da sua ajuda</h1>
@@ -11,7 +11,7 @@
     </section>
     <figure>
       <div class="Dog-banner">
-          <div class="Rotate-bg">a</div>
+          <div class="Rotate-bg"></div>
            <img src="../../images/dog-1.png" alt="Cachorrinho" class="Dog-img" /> 
       </div>
     </figure>
