@@ -3,7 +3,7 @@
 > Status : Progress ⏳
 
 ## Challenge [09] Codelândia - Iuri Silva
->Veja o design: https://www.figma.com/design/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---CodeLab
+>Look the design:: https://www.figma.com/design/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---CodeLab
 
 <img width="800px" src="./src/assets/images/image.png">
 
@@ -12,6 +12,7 @@ _Technologies_
 - Html5 <img width="15px" src="https://cdn-icons-png.flaticon.com/512/4943/4943029.png" />
 - Css3 <img width="15px" src="https://cdn-icons-png.flaticon.com/512/732/732190.png" />
 - Vue ✌️
+- Vue Router
 - SASS 🎨
 - Vite ⚡
 - AOS
@@ -25,7 +26,7 @@ _Technologies_
 
 ## 💻 Online Page: https://help-dog-flax.vercel.app
 
-## 🌐 Contats:
+## 🌐 Contacts:
 
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/sam.pongp/)
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samuel-gomes-481062316/)

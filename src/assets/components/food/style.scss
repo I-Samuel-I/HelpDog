@@ -10,16 +10,15 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;;
-  background-color: #ffff;
   width: 100%;
+  padding: 20px;
+  background-color: #ffff;
 
   .Cards {
-    margin-top: 3%;
-    margin-bottom: 5%;
     display: flex;
     justify-content: space-between;
-    
+    margin-top: 3%;
+    margin-bottom: 5%;
   }
   figure {
     display: flex;
@@ -32,22 +31,22 @@ section {
   h1 {
     margin-top: 5%;
     font-family: "Pangolin", sans-serif;
-    font-weight: 500;
     font-size: 2rem;
+    font-weight: 500;
   }
   p {
     margin-top: 3%;
     font-size: 1.1rem;
   }
   button {
-    background-color: #124c5f;
-    color: white;
-    padding: 20px;
     width: 100%;
-    border-radius: 10px;
+    padding: 20px;
     border: none;
+    border-radius: 10px;
     margin-top: 10%;
     font-weight: bold;
+    background-color: #124c5f;
+    color: white;
     @include btn-style;
   }
   @media (max-width: 1440px) {
@@ -59,38 +58,38 @@ section {
       width: 100%;
     }
   }
-  @media (max-width: 991px){
-    .Cards{
-      width: 95%;
+  @media (max-width: 991px) {
+    .Cards {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      img{
+      width: 95%;
+      img {
         width: 350px;
       }
-      h1{
+      h1 {
         margin-top: 10%;
       }
     }
     figure {
       width: 100%;
-      margin-bottom: 10%;
       padding: 5px;
+      margin-bottom: 10%;
     }
   }
   @media (max-width: 768px) {
-    .Cards{
-      img{
+    .Cards {
+      img {
         width: 300px;
       }
     }
   }
   @media (max-width: 600px) {
-    .Cards{
-      h1{
+    .Cards {
+      h1 {
         font-size: 1.5rem;
       }
-      p{
+      p {
         font-size: 1rem;
       }
     }

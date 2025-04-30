@@ -11,8 +11,8 @@
     </section>
     <figure>
       <div class="Dog-banner">
-          <div class="Rotate-bg"></div>
-           <img src="../../images/dog-1.png" alt="Cachorrinho" class="Dog-img" /> 
+        <div class="Rotate-bg"></div>
+        <img src="../../images/dog-1.png" alt="Cachorrinho" class="Dog-img" />
       </div>
     </figure>
   </header>
@@ -20,8 +20,8 @@
 
 <script>
 export default {
-    name: "Header"
-}
+  name: "Header",
+};
 </script>
 
 <style scoped lang="scss">

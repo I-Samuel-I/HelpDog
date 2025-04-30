@@ -11,37 +11,34 @@ section {
   display: flex;
   align-items: center;
   width: 100%;
-
   padding: 20px;
   background-color: #f3f6f7;
   .Info {
     display: flex;
     flex-direction: column;
-
-    margin-top: 3%;
     width: 30%;
     padding: 15px;
+    margin-top: 3%;
     margin-left: 5%;
     h1 {
       font-family: "Pangolin", sans-serif;
-      font-weight: 500;
       font-size: 2rem;
+      font-weight: 500;
     }
     p {
       margin-top: 5%;
       font-size: 1.2rem;
     }
     button {
-      margin-top: 5%;
       width: 30%;
-      border: none;
-      color: white;
-      background-color: #124c5f;
-      font-weight: bold;
-      font-size: 1rem;
-      border-radius: 10px;
       padding: 17px;
-
+      border: none;
+      border-radius: 10px;
+      margin-top: 5%;
+      font-size: 1rem;
+      font-weight: bold;
+      background-color: #124c5f;
+      color: white;
       @include btn-style;
     }
   }
@@ -54,7 +51,6 @@ section {
       }
     }
     figure {
-  
       img {
         width: 100%;
       }
@@ -94,12 +90,11 @@ section {
       display: flex;
       align-items: center;
       width: 100%;
-
       margin-left: 0%;
       button {
+        width: 50%;
         margin-top: 10%;
         margin-bottom: 10%;
-        width: 50%;
       }
       h1 {
         font-size: 1.5rem;

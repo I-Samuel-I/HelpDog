@@ -1,0 +1,33 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.errorContainer {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+.routerPage {
+  margin-top: 5%;
+  h2 {
+    margin-bottom: 3%;
+  }
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #124c5f;
+
+    &:hover {
+      text-decoration: underline;
+      color: #0a2a3c;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .errorContainer {
+    font-size: 1.5rem;
+  }
+}
